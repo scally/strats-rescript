@@ -78,4 +78,4 @@ app->get("/today", _ => {
 app->get("/liveness", _ => {"Ok": "Ok"})
 app->get("/config", _ => config)
 
-app["listen"](. 8080)
+app["listen"](. 3000)
