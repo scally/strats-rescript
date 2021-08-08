@@ -1,21 +1,36 @@
-# ReScript Project Template
+# strats-rescript
+Lightweight standup calendar
 
-The only official ReScript starter template.
+This is an experiment building the same micro-app in multiple languages for a bake-off.
 
-## Installation
+This app is the rescript version. There will also be one each for F#/ocaml, which are other ML descendants.
+
+## build
+
+First, install node. Then, 
 
 ```sh
 npm install
 ```
 
-## Build
+Finally, `npm run build`
 
-- Build: `npm run build`
-- Clean: `npm run clean`
-- Build & watch: `npm run start`
-
-## Run
+## run
 
 ```sh
 node src/Demo.bs.js
 ```
+
+## api
+
+The API is located at http://localhost:3000 by default, and offers these endpoints:
+
+`/today` view today's schedule
+
+`/day/:day` view schedule for day N
+
+`/schedule` view yearly schedule
+
+`/liveness` health check
+
+`/config` view configuration
