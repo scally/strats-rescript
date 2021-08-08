@@ -12,6 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "date-fns": "^2.23.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "rescript": "*",
+    "seedrandom": "^3.0.5"
   }
 }
